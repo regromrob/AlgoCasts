@@ -10,11 +10,11 @@
 
 
 function palindrome(str) {
-    let reversed = ''
+    let reverse = ''
     for(let char of str){
-        reversed =char + reversed
+        reverse =char + reverse
     }
-if(str === reversed){
+if(str === reverse){
     return true
 }
 }
